@@ -1,4 +1,4 @@
-package backjuntest.입출력;
+package backjuntest.입출력문;
 
 /* \    /\ 고양이 출력
     )  ( ')

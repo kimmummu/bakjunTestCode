@@ -1,4 +1,4 @@
-package backjuntest.입출력;
+package backjuntest.입출력문;
 
 //강한친구 대한육군 2번 출력
 
