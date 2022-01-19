@@ -27,9 +27,9 @@ public class Test11021 {
 		
 		int T = Integer.parseInt(br.readLine());
 		
-		for (int i = 0; i < T; i++) {
+		for (int i = 1; i <= T; i++) {
 			st = new StringTokenizer(br.readLine());
-			bw.write("Case #x: " +Integer.parseInt(st.nextToken())+Integer.parseInt(st.nextToken())+"\n");
+			bw.write("Case #"+i+": " +(Integer.parseInt(st.nextToken()) + Integer.parseInt(st.nextToken()))+"\n");
 			
 		}
 		bw.close();
