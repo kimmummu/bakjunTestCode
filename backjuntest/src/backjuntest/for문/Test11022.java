@@ -31,7 +31,10 @@ public class Test11022 {
 		
 		for (int i = 1; i <= T; i++) {
 			st = new StringTokenizer(br.readLine());
-			bw.write("Case #"+ i + ": " + Integer.parseInt(st.nextToken()) + " + " + Integer.parseInt(st.nextToken()) + " = " + (Integer.parseInt(st.nextToken()) + Integer.parseInt(st.nextToken()))+"\n");
+			int a = Integer.parseInt(st.nextToken());
+			int b =	Integer.parseInt(st.nextToken());
+			
+			bw.write("Case #"+ i + ": " + a + " + " + b + " = " + (a + b)+"\n");
 			
 		}
 		bw.close();
