@@ -9,13 +9,6 @@ public class Test2439 {
 		int T =  sc.nextInt();
 		String star = "*";
 		
-		for (int i = 1; i <= T; i++ ) {
-			if (i==1) {
-				System.out.println(star);
-			}else {
-				star= star + "*";
-				System.out.println(star);
-			}
-		}
+		
 	}
 }
