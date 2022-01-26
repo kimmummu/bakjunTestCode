@@ -27,12 +27,11 @@ public class Test2439 {
 					System.out.println("*");
 					num--;
 				}else {
-					
 					star = star +"*";
 					System.out.println(star);
 					num--;		
 				}
 				
-}
 		}
+	}
 }
