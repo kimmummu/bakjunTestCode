@@ -9,13 +9,13 @@ public class Test11720 {
 		int B = sc.nextInt(); // 갯수
 		sc.nextLine();
 		
-		String A = sc.nextLine(); //받는값
+		char A = sc.nextLine().charAt(0); //받는값
 		
 		
 		int sum = 0;
 		
 		for(int j = 0; j < B; j++) {
-			int num = A.charAt(j)-'0';
+			int num = Character.getNumericValue(A); //-0을 붙이면 값 그대로 나오는듯?...
 			sum = sum + num;
 		}
 		System.out.println(sum); 
