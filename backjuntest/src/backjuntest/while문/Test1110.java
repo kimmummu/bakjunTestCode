@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-import com.sun.org.apache.xml.internal.utils.res.StringArrayWrapper;
-
 public class Test1110 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
