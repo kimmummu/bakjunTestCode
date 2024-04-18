@@ -1,7 +1,5 @@
 package backjuntest.while문;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class Test1110 {
@@ -25,7 +23,9 @@ public class Test1110 {
 				
 				int str0ToInt = Integer.parseInt(str0);
 				int str1ToInt = Integer.parseInt(str1);
-				                                       
+				                                 
+				System.out.println(str1ToInt+str0ToInt);
+				sc.close();
 			}                                          
 			                                           
 			
